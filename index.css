@@ -1,3 +1,19 @@
-h1 {
+h1, h2, h3 {
   color: green;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-family: arial black;
+}
+
+h1, li {
+  font-family: arial;
+}
+
+#content {
+  font-family: arial;
 }
