@@ -1,38 +1,171 @@
-h1, h2, h3 {
-  color: green;
+html {
+  background: url(./images/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Advent Pro', sans-serif;
 }
 
-h1 {
+h1, h5 {
+  color: green;
+  text-align: center;
+}
+
+.pararagh-one {
   font-size: 30px;
+  font-family: 'Merienda One', cursive;
 }
 
 p {
-  font-family: arial black;
+  text-align: justify;
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
 }
 
-h1, li {
+.center {
+  text-align: left;
+}
+
+li {
   font-family: arial;
 }
 
-#content {
-  font-family: arial;
+.box {
+  font-family: 'Carter One', cursive;
+  width: 500px;
+  height: 700px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  color: green;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.logo {
+.image {
   height: 180px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 0;
+}
+
+.bahamut {
+  text-align: center;
+  color: pink;
+}
+
+.center {
+  text-align: center;
 }
 
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 20px;
+  width: 30px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
 }
 
+.web {
+  font-size: 18px;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+  color: black;
+}
+
+a.impact:link {
+  color: white;
+  text-decoration: none;
+}
+
+a.impact:visited {
+  font-family: 'Carter One', cursive;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+a.impact:hover {
+  color: green;
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0;
+}
+
+.fa:hover {
+  color: white;
+}
+
+.url {
+  position: relative;
+  bottom: 0;
+  margin: auto;
+  padding-top: 50px;
+}
+
 .fa-facebook {
-  background: #3A5998;
+  background: #245EEE;
+  color: ;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+a.url-fb:hover {
+  color: white;
+  background: blue;
+}
+
+a.url-fb:visited {
+  color: white;
+}
+
+a.url-tw:hover {
+  color: white;
+  background: blue;
+}
+
+a.url-tw:visited {
+  color: white;
+}
+
+a.url-ig:hover {
+  color: white;
+  background: blue;
+}
+
+a.url-ig:visited {
+  color: white;
+}
+
+a.url-gt:hover {
+  color: white;
+  background: blue;
+}
+
+a.url-gt:visited {
   color: white;
 }
