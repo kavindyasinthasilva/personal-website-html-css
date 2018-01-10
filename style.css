@@ -1,4 +1,4 @@
-@media only screen (min-width: 600px) and (max-width:800px) {
+@media only screen (min-width: 800px) and (max-width:1280px) {
   /* For mobile phones: */
   .menu, .main, .right {
     width: 100%;
@@ -6,7 +6,7 @@
 }
 
 html {
-  background: url(./images/background.jpg) center fixed;
+  background: url(./images/background.jpg) no-repeat center fixed;
   background-size: cover;
   font-family: 'Advent Pro', sans-serif;
 }
