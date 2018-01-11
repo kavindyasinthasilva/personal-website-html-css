@@ -23,8 +23,8 @@ li {
 
 .box {
   font-family: 'Carter One', cursive;
-  width: 500px;
-  height: 770px;
+  width: 40%;
+  height: 50%;
   background: rgba(0, 0, 0, 0.6);
   padding: 40px;
   color: green;
@@ -33,7 +33,8 @@ li {
 }
 
 .image {
-  height: 180px;
+  max-width: 180px;
+  min-width: 100px;
   border-radius: 50%;
   position: relative;
   bottom: 0;
@@ -87,7 +88,7 @@ a.impact:hover {
 }
 
 .fa:hover {
-  color: white;
+  color: black;
 }
 
 .url {
@@ -179,11 +180,12 @@ a.url-gt:visited {
 
 .container {
   font-family: 'Quicksand', sans-serif;
-  width: 80%;
+  width: 50%;
   margin: 50px auto;
   box-sizing: border-box;
   padding: 40px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.4);
   text-align: center;
   background: white;
 }
@@ -241,4 +243,16 @@ a.url-gt:visited {
   border: 2px solid #486255;
 }
 
-@media screen (max-width: 800px) and (min-width: 600px)
+@media screen (max-width: 800px) {
+  .image, .container {
+    max-width: 30%;
+    min-width: 10%;
+  }
+}
+
+@media screen (min-width: 200px) {
+  .image, .container {
+    max-width: 30%;
+    min-width: 10%;
+  }
+}
