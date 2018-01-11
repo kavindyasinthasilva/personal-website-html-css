@@ -1,3 +1,5 @@
+/*index.html*/
+
 html {
   background: url(./images/background.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -31,7 +33,7 @@ li {
 .box {
   font-family: 'Carter One', cursive;
   width: 500px;
-  height: 700px;
+  height: 770px;
   background: rgba(0, 0, 0, 0.6);
   padding: 40px;
   color: green;
@@ -129,11 +131,6 @@ a.impact:hover {
   color: white;
 }
 
-.fa-github {
-  background: #000000;
-  color: white;
-}
-
 a.url-fb:hover {
   color: white;
   background: blue;
@@ -168,4 +165,27 @@ a.url-gt:hover {
 
 a.url-gt:visited {
   color: white;
+}
+
+/*contact.html*/
+
+.button {
+  background: green;
+  width: 100px;
+  padding: 12px;
+  text-align: center;
+  margin-top: 10px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+}
+
+.button:hover {
+  box-shadow: 0 10px 10px 0 rgba(255, 255, 255, 0.10), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  text-align: center;
 }
