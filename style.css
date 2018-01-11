@@ -11,7 +11,7 @@ h1, h5 {
   text-align: center;
 }
 
-.pararagh-one {
+.parapragh-one {
   font-size: 30px;
   font-family: 'Merienda One', cursive;
 }
@@ -194,6 +194,8 @@ a.url-gt:visited {
   padding: 40px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
 }
 
 .container p {
