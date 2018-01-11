@@ -187,5 +187,65 @@ a.url-gt:visited {
 }
 
 .container {
+  width: 800px;
+  height: 600px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
   text-align: center;
+}
+
+.container p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #486255;
+  letter-spacing: 1px;
+}
+
+.input, .msg, .area {
+  width: 90%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+.login .input {
+  width: 45%;
+  float: left;
+  margin-right: 5%;
+}
+
+.login .input:last-child {
+  margin-right: 0;
+}
+
+.msg .area {
+  height: 200px;
+}
+
+.btn {
+  width: 200px;
+  background #486255;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.input:focus, .msg .area:focus {
+  border: 2px solid #486255;
 }

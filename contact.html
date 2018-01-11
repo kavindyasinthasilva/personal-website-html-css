@@ -5,38 +5,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Suggestion</title>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery.min.js">
   </script>
   <script>
-    $(document).ready(functi) {}
+    $(document).ready(function() {
+      $(".btn").click(function() {});
+      $(".input, .area").val("");
+    });
   </script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Suggestion</title>
 </head>
 
 <body background="./images/bgcontact.jpg">
-  <div <div class="container">
-    <form id="contact" action="" method="post">
-      <h3>Suggestion</h3>
-      <h4>Contact me today, and get reply with in 48 hours!</h4>
-      <fieldset>
-        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-      </fieldset>
-      <fieldset>
-        <input placeholder="Your Email Address" type="email" tabindex="2" required>
-      </fieldset>
-      <fieldset>
-        <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-      </fieldset>
-      <fieldset>
-        <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
-      </fieldset>
-      <fieldset>
-        <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-      </fieldset>
-      <fieldset>
-        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-      </fieldset>
-    </form>
+
+  <div class="container">
+    <center>
+      <p>Suggestion</p>
+      <div class="login">
+        <input type="text" class="input" placeholder="Your Name">
+        <input type="text" class="input" placeholder="Your Email Address">
+      </div>
+      <div class="subject">
+        <input type="text" class="input" placeholder="Subject">
+      </div>
+      <div class="msg">
+        <textarea class="area" placeholder="Leave a Message"></textarea>
+      </div>
+      <div class="btn">Send Message</div>
+    </center>
+  </div>
+
   </div>
 
 
