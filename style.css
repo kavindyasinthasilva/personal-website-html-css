@@ -251,3 +251,5 @@ a.url-gt:visited {
 .input:focus, .msg .area:focus {
   border: 2px solid #486255;
 }
+
+@media screen (max-width: 800px) and (min-width: 600px)
