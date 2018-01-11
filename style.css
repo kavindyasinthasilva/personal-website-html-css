@@ -178,14 +178,14 @@ a.url-gt:visited {
 }
 
 .container {
-  width: 800px;
-  height: 800px;
+  font-family: 'Quicksand', sans-serif;
+  width: 80%;
   margin: 50px auto;
   box-sizing: border-box;
   padding: 40px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
   text-align: center;
-  color: black;
+  background: white;
 }
 
 .container p {
