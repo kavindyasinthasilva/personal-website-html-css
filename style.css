@@ -177,14 +177,9 @@ a.url-gt:visited {
   cursor: pointer;
 }
 
-.title {
-  font-family: 'Quicksand', sans-serif;
-}
-
 .container {
-  font-family: 'Quicksand', sans-serif;
   width: 800px;
-  height: 600px;
+  height: 800px;
   margin: 50px auto;
   box-sizing: border-box;
   padding: 40px;
@@ -198,7 +193,7 @@ a.url-gt:visited {
   text-align: center;
   font-size: 45px;
   margin-bottom: 20px;
-  color: #486255;
+  color: #000000;
   letter-spacing: 1px;
 }
 
