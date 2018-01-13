@@ -23,7 +23,7 @@ li {
 
 .box {
   font-family: 'Carter One', cursive;
-  width: 40%;
+  max-width: 40%;
   height: 50%;
   background: rgba(0, 0, 0, 0.6);
   padding: 40px;
@@ -244,8 +244,4 @@ a.url-gt:visited {
   border: 2px solid #486255;
 }
 
-@media only screen and (max-width: 500px) {
-  body {
-    background-color: lightblue;
-  }
-}
+@media only screen and (max-width: 800px) {}
