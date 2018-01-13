@@ -179,7 +179,6 @@ a.url-gt:visited {
 }
 
 .container {
-  font-family: 'Quicksand', sans-serif;
   width: 50%;
   margin: 50px auto;
   box-sizing: border-box;
@@ -200,6 +199,7 @@ a.url-gt:visited {
 }
 
 .input, .msg, .area {
+  font-family: 'Quicksand', sans-serif;
   width: 90%;
   padding: 20px;
   box-sizing: border-box;
@@ -243,14 +243,7 @@ a.url-gt:visited {
   border: 2px solid #486255;
 }
 
-@media screen (max-width: 800px) {
-  .image, .container {
-    max-width: 30%;
-    min-width: 10%;
-  }
-}
-
-@media screen (min-width: 200px) {
+@media screen (max-width: 800px) (min-width: 600px) {
   .image, .container {
     max-width: 30%;
     min-width: 10%;
