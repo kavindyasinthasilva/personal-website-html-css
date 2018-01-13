@@ -244,3 +244,5 @@ a.url-gt:visited {
 }
 
 @media screen (min-width: 600px) (max-width: 800px) {}
+
+@media screen (min-height: 600px) (max-height: 800px) {}
