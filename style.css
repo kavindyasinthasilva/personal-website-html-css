@@ -243,6 +243,6 @@ a.url-gt:visited {
   border: 2px solid #486255;
 }
 
-@media screen (min-width: 600px) (max-width: 800px) {}
+@media only screen and (max-width: 800px) {}
 
-@media screen (min-height: 600px) (max-height: 800px) {}
+@media only screen and (min-width: 600px) {}
